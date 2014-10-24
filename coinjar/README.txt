@@ -1,12 +1,10 @@
-
 Project description: 
 Implementation of a coin jar of 32 fluid ounce where only US coinage are accepted.
 ------------------------------------------------------------------------------------
-Environment and frameworks: 
-Eclipse IDE, Java 7, JEE, Maven, Spring framework, RESTful Web Services.
-------------------------------------------------------------------------------------
+
 Instructions:
-- Start the service: java -jar coinjar-0.1.0.jar
+- dowload the application from target/coinjar-0.1.0.jar
+- Start the application: java -jar coinjar-0.1.0.jar
 - In Firefox, install the RestClient plugin.
 - Method = PUT
 - For adding coins:
@@ -18,6 +16,11 @@ Instructions:
 	header: 200 OK or 400 Bad Request
 	body: total or error info
 ------------------------------------------------------------------------------------
+
+Environment and frameworks: 
+Eclipse IDE, Java 7, JEE, Maven, Spring framework, RESTful Web Services.
+------------------------------------------------------------------------------------
+
 Code design:
 JEE project built with Maven and Spring framework to support RESTful Web Services and Error Handling.
 Application class: this class implements Spring technology to search recursively for RESTful controllers, and provide Spring MVC configuration, so no web.xml is needed.
